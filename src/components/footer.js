@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Footer = () => {
 
     return (
-    <footer className="mx-auto py-12 px-4 sm:px-6 lg:py-5 lg:px-8 bg-gray-900 text-white font-mono">
+    <footer className="mx-auto py-6 px-4 md:px-4 lg:py-5 lg:px-8 bg-gray-900 text-white text-xs font-mono">
     © {new Date().getFullYear()} Mad Dame
     <p>All Rights Reserved</p>
     <div className="flex space-x-6">
