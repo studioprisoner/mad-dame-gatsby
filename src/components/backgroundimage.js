@@ -12,7 +12,7 @@ const BackgroundImage = () => {
                   relativePath
                   childImageSharp {
                     fluid (maxWidth: 4000, quality: 100) {
-                      ...GatsbyImageSharpFluid
+                      ...GatsbyImageSharpFluid_withWebp
                     }
                   }
                 }
@@ -22,7 +22,7 @@ const BackgroundImage = () => {
           initDelay={2}
           transition={4}
           duration={8}
-          images={["image1.jpg", "image2.jpg"]}
+          images={["test.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg", "image8.jpg"]}
           >
           </BackgroundSlider>
     )

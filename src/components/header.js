@@ -22,17 +22,17 @@ function Header ({ siteTitle }) {
         </button>
       </div>
       <div className={`${ isExpanded ? `block` : `hidden` } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
-        <div className="text-base lg:flex-grow text-white font-serif italic text-lg">
-          <Link to={`/about/`} href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:underline">
+        <div className="text-base lg:flex-grow text-white font-garamond italic text-lg">
+          <Link to={`/about/`} href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 lg:pl-10 mr-4 hover:underline">
             About
           </Link>
-          <Link to={`/`} className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:underline">
+          <Link to={`/gallery/`} className="block mt-4 lg:inline-block lg:mt-0 lg:pl-10 mr-4 hover:underline">
             Gallery
           </Link>
-          <a href="https://store.mad-dame.com" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:underline">
+          <a href="https://store.mad-dame.com" className="block mt-4 lg:inline-block lg:mt-0 lg:pl-10 mr-4 hover:underline">
             Store
           </a>
-          <Link to={`/contact/`} className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:underline">
+          <Link to={`/contact/`} className="block mt-4 lg:inline-block lg:mt-0 lg:pl-10 mr-4 hover:underline">
             Contact
           </Link>
         </div>
