@@ -22,7 +22,7 @@ const DamedMagazine = () => (
                         </div>
                     </li>
                 </Link>
-                <Link to="/">
+                <Link to="/issue-02/">
                     <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
                         <div className="relative flex-1 flex flex-col">
                             <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Issue 02</h3>
@@ -30,7 +30,7 @@ const DamedMagazine = () => (
                         </div>
                     </li>
                 </Link>
-                <Link to="/">
+                <Link to="/issue-03/">
                     <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
                         <div className="relative flex-1 flex flex-col">
                             <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Issue 03-04</h3>
