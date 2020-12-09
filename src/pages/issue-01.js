@@ -16,7 +16,7 @@ const query = graphql`
                             height
                         }
                     fluid {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                         originalName
                         originalImg
                     }
