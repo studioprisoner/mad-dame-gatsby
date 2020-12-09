@@ -30,7 +30,7 @@ const Glitter = () => (
                         </div>
                     </li>
                 </Link>
-                <Link to="/">
+                <Link to="/pregnant-glitter/">
                     <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
                         <div className="relative flex-1 flex flex-col">
                             <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Pregnant Glitter</h3>
