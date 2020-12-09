@@ -8,14 +8,14 @@ import GlitterImg from "../gallery/cover_img/glitter.jpg"
 import NudedDeadImg from "../gallery/cover_img/nude-dead.jpg"
 import SuburbanMayhemImg from "../gallery/cover_img/suburban-mayhem.jpg"
 import UvImg from "../gallery/cover_img/UV.jpg"
-import WorksImg from "../gallery/cover_img/works.jpg"
+import WorksImg from "../gallery/works.jpg"
 
 const Gallery = () => (
     <Layout>
         <SEO title="Gallery" />
         <div className="m-4">
             <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                <Link to="/">
+                <Link to="/damed-magazine/">
                 <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Damed Magazine</h3>
@@ -31,7 +31,7 @@ const Gallery = () => (
                     </div>
                 </li>
                 </Link>
-                <Link to="/">
+                <Link to="/nude-dead/">
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Nude Dead Women</h3>
@@ -39,7 +39,7 @@ const Gallery = () => (
                     </div>
                 </li>
                 </Link>
-                <Link to="/">
+                <Link to="/suburban-mayhem/">
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Suburban Mayhem</h3>
@@ -47,7 +47,7 @@ const Gallery = () => (
                     </div>
                 </li>
                 </Link>
-                <Link to="/">
+                <Link to="/uv/">
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">UV</h3>
@@ -55,7 +55,7 @@ const Gallery = () => (
                     </div>
                 </li>
                 </Link>
-                <Link to="/">
+                <Link to="/works/">
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Works</h3>

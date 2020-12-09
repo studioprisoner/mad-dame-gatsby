@@ -6,8 +6,8 @@ import SEO from '../components/seo'
 import { Link } from 'gatsby'
 
 const query = graphql`
-    query indexQueryMoreGlitter {
-        allFile(filter: {relativePath: {regex: "images/gallery/albums/more-glitter/"}}, sort: {order: DESC, fields: modifiedTime}) {
+    query indexQueryNudeDead {
+        allFile(filter: {relativePath: {regex: "images/gallery/albums/nude-dead/"}}, sort: {order: DESC, fields: modifiedTime}) {
             edges {
                 node {
                     childImageSharp {
@@ -26,14 +26,14 @@ const query = graphql`
         }
     }
     `
-    const MoreGlitter = () => {
+    const NudeDead = () => {
     const data = useStaticQuery(query)
     return (
         <Layout>
-            <SEO title="More Glitter" />
+            <SEO title="Nude Dead Women" />
             <div className="m-4">
-            <h2 className="text-4xl font-lato pb-5 uppercase">More Glitter</h2>
-            <Link to="/glitter" className="text-gray-400 italic underline">
+            <h2 className="text-4xl font-lato pb-5 uppercase">Nude Dead Woman</h2>
+            <Link to="/gallery/" className="text-gray-400 italic underline">
                 Back
             </Link>
             <Gallery
@@ -53,4 +53,4 @@ const query = graphql`
     )
 }
 
-export default MoreGlitter
+export default NudeDead
