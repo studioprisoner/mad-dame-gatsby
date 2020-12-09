@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 
 const query = graphql`
     query indexQueryDamedIssue1 {
-        allFile(filter: {relativePath: {regex: "images/gallery/albums/damed-magazine-01/"}}, sort: {order: ASC, fields: modifiedTime}) {
+        allFile(filter: {relativePath: {regex: "images/gallery/albums/damed-magazine-01/"}}, sort: {order: DESC, fields: modifiedTime}) {
             edges {
                 node {
                     childImageSharp {
@@ -33,7 +33,7 @@ const query = graphql`
             <SEO title="Damed Magazine 01" />
             <div className="m-4">
             <h2 className="text-4xl font-lato pb-5 uppercase">Damed Magazine Issue 01</h2>
-            <Link to="/glitter" className="text-gray-400 italic underline">
+            <Link to="/damed-magazine/" className="text-gray-400 italic underline">
                 Back
             </Link>
             <Gallery

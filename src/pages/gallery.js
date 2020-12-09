@@ -19,7 +19,7 @@ const Gallery = () => (
                 <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Damed Magazine</h3>
-                        <img src={DamedMagazineImg} className="object-cover h-48 w-auto" />
+                        <img src={DamedMagazineImg} className="object-cover h-48 w-auto" alt="Damed Magazine" />
                     </div>
                 </li>
                 </Link>
@@ -27,7 +27,7 @@ const Gallery = () => (
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Glitter</h3>
-                        <img src={GlitterImg} className="object-cover h-48 w-auto" />
+                        <img src={GlitterImg} className="object-cover h-48 w-auto" alt="Glitter" />
                     </div>
                 </li>
                 </Link>
@@ -35,7 +35,7 @@ const Gallery = () => (
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Nude Dead Women</h3>
-                        <img src={NudedDeadImg} className="object-cover h-48 w-auto" />
+                        <img src={NudedDeadImg} className="object-cover h-48 w-auto" alt="Nude Dead Women" />
                     </div>
                 </li>
                 </Link>
@@ -43,7 +43,7 @@ const Gallery = () => (
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Suburban Mayhem</h3>
-                        <img src={SuburbanMayhemImg} className="object-cover h-48 w-auto" />
+                        <img src={SuburbanMayhemImg} className="object-cover h-48 w-auto" alt="Suburban Mayhem" />
                     </div>
                 </li>
                 </Link>
@@ -51,7 +51,7 @@ const Gallery = () => (
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">UV</h3>
-                        <img src={UvImg} className="object-cover h-48 w-auto" />
+                        <img src={UvImg} className="object-cover h-48 w-auto" alt="UV" />
                     </div>
                 </li>
                 </Link>
@@ -59,7 +59,7 @@ const Gallery = () => (
                 <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
                     <div className="relative flex-1 flex flex-col">
                         <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Works</h3>
-                        <img src={WorksImg} className="object-cover h-48 w-auto" />
+                        <img src={WorksImg} className="object-cover h-48 w-auto" alt="Works" />
                     </div>
                 </li>
                 </Link>

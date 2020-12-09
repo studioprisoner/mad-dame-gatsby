@@ -16,7 +16,7 @@ const AboutPage = () => (
             <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
                 <div className="lg:col-start-2 lg:pl-8">
                     <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-                        <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercas">About Made Dame</h2>
+                        <h2 className="leading-6 text-blue-900 font-semibold tracking-wide uppercas">About Made Dame</h2>
                         <div className="mt-5 prose prose-indigo text-gray-500">
                             <p>Mad Dame is known to many as a provocative artist with a beautiful and bizarre approach to alternative portrait photography. With 19 years of experience in photographing everyday people and portraying them in diverse creative contexts, for most of which she prepares all elements including make-up and set, sometimes with a team on hand and support from local designers.</p>
                             <p>She has since won awards for her fine art such as the Entrepreneur Motivative Series, a collection of photographic work exhibited at Smith Street Lofts, Collingwood, and also won two Silver Awards by International Loupe Awards for Medium Format Prize. In 2012 Mad Dame launched a Artbook Printed series called DAMED MAGAZINE in 2013 to inspire others in her wake.</p>

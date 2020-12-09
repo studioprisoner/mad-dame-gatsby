@@ -14,7 +14,7 @@ const Contact = () => (
                     </h2>
                 </div>
                 <div className="mt-12">
-                    <form action="#" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                    <form name="contact" data-netlify="true" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                         <div>
                             <label for="first_name" className="block text-sm font-medium text-gray-700">First Name</label>
                             <div className="mt-1">
@@ -25,12 +25,6 @@ const Contact = () => (
                             <label for="last_name" className="block text-sm font-medium text-gray-700">Last Name</label>
                             <div className="mt-1">
                             <input type="text" id="last_name" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
-                            </div>
-                        </div>
-                        <div className="sm:col-span-2">
-                            <label for="company" className="block text-sm font-medium text-gray-700">Company</label>
-                            <div className="mt-1">
-                                <input type="text" id="company" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
                             </div>
                         </div>
                         <div className="sm:col-span-2">

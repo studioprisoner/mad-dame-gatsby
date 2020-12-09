@@ -16,7 +16,7 @@ const query = graphql`
                             height
                         }
                     fluid {
-                        ...GatsbyImageSharpFluid
+                        ...GatsbyImageSharpFluid_withWebp
                         originalName
                         originalImg
                     }
@@ -32,7 +32,7 @@ const query = graphql`
         <Layout>
             <SEO title="UV" />
             <div className="m-4">
-            <h2 className="text-4xl font-lato pb-5 uppercase">UV</h2>
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">UV</h2>
             <Link to="/gallery/" className="text-gray-400 italic underline">
                 Back
             </Link>

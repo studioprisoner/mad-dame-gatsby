@@ -12,7 +12,7 @@ const Glitter = () => (
     <Layout>
         <SEO title="Glitter"/>
         <div className="m-4">
-        <h2 className="text-5xl font-lato pb-5 uppercase">Glitter</h2>
+        <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Glitter</h2>
             <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 <Link to="/power-glitter/">
                     <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
