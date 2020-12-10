@@ -32,7 +32,7 @@ const query = graphql`
         <Layout>
             <SEO title="More Glitter" />
             <div className="m-4">
-            <h2 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">More Glitter</h2>
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">More Glitter</h2>
             <Link to="/glitter" className="text-gray-400 italic underline">
                 Back
             </Link>
