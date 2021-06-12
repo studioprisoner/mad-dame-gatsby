@@ -12,58 +12,102 @@ import WorksImg from "../gallery/works.jpg"
 
 const Gallery = () => (
     <Layout>
-        <SEO title="Gallery" />
-        <div className="m-4">
-            <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                <Link to="/damed-magazine/">
-                <li className="col-span-1 flex flex-col bg-white rounded-lg shadow divide-y divide-gray-200">
-                    <div className="relative flex-1 flex flex-col">
-                        <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Damed Magazine</h3>
-                        <img src={DamedMagazineImg} className="object-cover h-48 w-auto" alt="Damed Magazine" />
-                    </div>
-                </li>
-                </Link>
-                <Link to="/glitter/">
-                <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-                    <div className="relative flex-1 flex flex-col">
-                        <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Glitter</h3>
-                        <img src={GlitterImg} className="object-cover h-48 w-auto" alt="Glitter" />
-                    </div>
-                </li>
-                </Link>
-                <Link to="/nude-dead/">
-                <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-                    <div className="relative flex-1 flex flex-col">
-                        <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Nude Dead Women</h3>
-                        <img src={NudedDeadImg} className="object-cover h-48 w-auto" alt="Nude Dead Women" />
-                    </div>
-                </li>
-                </Link>
-                <Link to="/suburban-mayhem/">
-                <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-                    <div className="relative flex-1 flex flex-col">
-                        <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Suburban Mayhem</h3>
-                        <img src={SuburbanMayhemImg} className="object-cover h-48 w-auto" alt="Suburban Mayhem" />
-                    </div>
-                </li>
-                </Link>
-                <Link to="/uv/">
-                <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-                    <div className="relative flex-1 flex flex-col">
-                        <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">UV</h3>
-                        <img src={UvImg} className="object-cover h-48 w-auto" alt="UV" />
-                    </div>
-                </li>
-                </Link>
-                <Link to="/works/">
-                <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-                    <div className="relative flex-1 flex flex-col">
-                        <h3 className="absolute bottom-0 left-0 px-5 text-2xl font-bold text-white uppercase">Works</h3>
-                        <img src={WorksImg} className="object-cover h-48 w-auto" alt="Works" />
-                    </div>
-                </li>
-                </Link>
-            </ul>
+        <SEO title="Mad Dame Gallery" />
+        <div className="bg-white">
+            <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-16">
+                <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+                    <Link to="/damed-magazine">
+                    <li>
+                        <div className="space-y-4">
+                            <div className="aspect-w-3 aspect-h-2">
+                                <img className="object-cover shadow-lg rounded-lg" src={DamedMagazineImg} alt="Damed Magazine" />
+                            </div>
+
+                            <div className="space-y-2">
+                                <div className="text-2xl leading-6 font-bold space-y-1 uppercase">
+                                    <h3>Damed Magazine</h3>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    </Link>
+                    <Link to="/glitter">
+                    <li>
+                        <div className="space-y-4">
+                            <div className="aspect-w-3 aspect-h-2">
+                                <img className="object-cover shadow-lg rounded-lg" src={GlitterImg} alt="Glitter" />
+                            </div>
+
+                            <div className="space-y-2">
+                                <div className="text-2xl leading-6 font-bold space-y-1 uppercase">
+                                    <h3>Glitter</h3>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    </Link>
+                    <Link to="/nude-dead">
+                    <li>
+                        <div className="space-y-4">
+                            <div className="aspect-w-3 aspect-h-2">
+                                <img className="object-cover shadow-lg rounded-lg" src={NudedDeadImg} alt="Nude Dead Women" />
+                            </div>
+
+                            <div className="space-y-2">
+                                <div className="text-2xl leading-6 font-bold space-y-1 uppercase">
+                                    <h3>Nude Dead Women</h3>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    </Link>
+                    <Link to="/suburban-mayhem">
+                    <li>
+                        <div className="space-y-4">
+                            <div className="aspect-w-3 aspect-h-2">
+                                <img className="object-cover shadow-lg rounded-lg" src={SuburbanMayhemImg} alt="Suburban Mayhem" />
+                            </div>
+
+                            <div className="space-y-2">
+                                <div className="text-2xl leading-6 font-bold space-y-1 uppercase">
+                                    <h3>Suburban Mayhem</h3>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    </Link>
+                    <Link to="/uv">
+                    <li>
+                        <div className="space-y-4">
+                            <div className="aspect-w-3 aspect-h-2">
+                                <img className="object-cover shadow-lg rounded-lg" src={UvImg} alt="UV" />
+                            </div>
+
+                            <div className="space-y-2">
+                                <div className="text-2xl leading-6 font-bold space-y-1 uppercase">
+                                    <h3>UV</h3>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    </Link>
+                    <Link to="/works">
+                    <li>
+                        <div className="space-y-4">
+                            <div className="aspect-w-3 aspect-h-2">
+                                <img className="object-cover shadow-lg rounded-lg" src={WorksImg} alt="Works" />
+                            </div>
+
+                            <div className="space-y-2">
+                                <div className="text-2xl leading-6 font-bold space-y-1 uppercase">
+                                    <h3>Works</h3>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    </Link>
+                </ul>
+            </div>
         </div>
     </Layout>
 )

@@ -10,7 +10,7 @@ const AboutPage = () => (
         <div className="lg:relative bg:white">
             <div className="lg:absolute lg:inset-0">
                 <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-                    <img src={MadDameImage} alt="Mad Dame" className="h-56 w-full object-cover lg:absolute lg:h-full"/>
+                    <img src={MadDameImage} alt="Mad Dame" className="h-56 w-full object-contain lg:object-cover lg:absolute lg:h-full"/>
                 </div>
             </div>
             <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">

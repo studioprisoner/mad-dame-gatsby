@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 
 const query = graphql`
     query indexQueryPowerGlitter {
-        allFile(filter: {relativePath: {regex: "images/gallery/albums/power-glitter/"}}, sort: {order: DESC, fields: modifiedTime}) {
+        allFile(filter: {relativePath: {regex: "images/gallery/albums/power-glitter/"}}, sort: {order: ASC, fields: name}) {
             edges {
                 node {
                     childImageSharp {

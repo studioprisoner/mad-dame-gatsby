@@ -35,7 +35,7 @@ const fileNumber = file =>
 
 const getImages = imageArray => {
     return [...imageArray]
-        .sort((a, b) => fileNumber(b) - fileNumber(a))
+        .sort((a, b) => fileNumber(a) - fileNumber(b))
         .map(({ node: { childImageSharp: { fluid, original } } }) => ({
             height: original.height,
             width: original.width,

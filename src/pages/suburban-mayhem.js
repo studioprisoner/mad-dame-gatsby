@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 const query = graphql`
     query indexQuerySuburbanMayhem {
-        allFile(filter: {relativePath: {regex: "images/gallery/albums/suburban-mayhem/"}}, sort: {order: DESC, fields: modifiedTime}) {
+        allFile(filter: {relativePath: {regex: "images/gallery/albums/suburban-mayhem/"}}, sort: {order: ASC, fields: name}) {
             edges {
                 node {
                     childImageSharp {

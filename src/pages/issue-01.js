@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 
 const query = graphql`
     query indexQueryDamedIssue1 {
-        allFile(filter: {relativePath: {regex: "images/gallery/albums/damed-magazine-01/"}}, sort: {order: DESC, fields: modifiedTime}) {
+        allFile(filter: {relativePath: {regex: "images/gallery/albums/damed-magazine-01/"}}, sort: {order: ASC, fields: name}) {
             edges {
                 node {
                     childImageSharp {

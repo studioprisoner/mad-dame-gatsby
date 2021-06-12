@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 const query = graphql`
     query indexQueryNudeDead {
-        allFile(filter: {relativePath: {regex: "images/gallery/albums/nude-dead/"}}, sort: {order: DESC, fields: modifiedTime}) {
+        allFile(filter: {relativePath: {regex: "images/gallery/albums/nude-dead/"}}, sort: {order: ASC, fields: name}) {
             edges {
                 node {
                     childImageSharp {
