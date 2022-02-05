@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import DamedMagazineImg from "../gallery/cover_img/power-portfolio.jpg"
+import PowerPortfolioImg from "../gallery/cover_img/power-portfolio.jpg"
 import DamedMagazineImg from "../gallery/cover_img/damed-magazine.jpg"
 import GlitterImg from "../gallery/cover_img/glitter.jpg"
 import NudedDeadImg from "../gallery/cover_img/nude-dead.jpg"
