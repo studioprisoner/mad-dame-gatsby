@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 import { Link } from 'gatsby'
 
 const query = graphql`
-    query indexQueryUV {
+    query indexQueryPowerPortfolio {
         allFile(filter: {relativePath: {regex: "images/gallery/albums/power-portfolio/"}}, sort: {order: ASC, fields: name}) {
             edges {
                 node {
