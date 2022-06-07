@@ -18,19 +18,19 @@ const Contact = () => (
                         <div>
                             <label for="first_name" className="block text-sm font-medium text-gray-700">First Name</label>
                             <div className="mt-1">
-                                <input type="text" id="first_name" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
+                                <input type="text" name="first_name" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
                             </div>
                         </div>
                         <div>
                             <label for="last_name" className="block text-sm font-medium text-gray-700">Last Name</label>
                             <div className="mt-1">
-                            <input type="text" id="last_name" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
+                            <input type="text" name="last_name" class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
                             </div>
                         </div>
                         <div className="sm:col-span-2">
                             <label for="email" className="block text-sm font-medium text-gray-700">Email</label>
                             <div className="mt-1">
-                                <input id="email" type="email" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
+                                <input name="email" type="email" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></input>
                             </div>
                         </div>
                         <div className="sm:col-span-2">
@@ -43,7 +43,7 @@ const Contact = () => (
                                         <option>UK</option>
                                     </select>
                                 </div>
-                                <input type="text" id="phone_number" className="py-3 px-4 block w-full pl-20 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="+61 439-423-567"></input>
+                                <input type="text" name="phone_number" className="py-3 px-4 block w-full pl-20 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="+61 439-423-567"></input>
                             </div>
                         </div>
                         <div className="sm:col-span-2">
