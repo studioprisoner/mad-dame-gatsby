@@ -15,6 +15,7 @@ const Contact = () => (
                 </div>
                 <div className="mt-12">
                     <form name="contact" data-netlify="true" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div>
                             <label for="first_name" className="block text-sm font-medium text-gray-700">First Name</label>
                             <div className="mt-1">
