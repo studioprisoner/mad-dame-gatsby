@@ -50,7 +50,7 @@ const Contact = () => (
                         <div className="sm:col-span-2">
                             <label for="message" className="block text-sm font-medium text-gray-700">Message</label>
                             <div className="mt-1">
-                                <textarea id="message" rows="4" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
+                                <textarea name="message" rows="4" className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
                             </div>
                         </div>
                         <div class="sm:col-span-2">
