@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const PriceList = () => {
+const PriceList = () => (
     <Layout>
         <SEO title="Mad Dame Gallery" />
         <div className="bg-white">
@@ -13,6 +13,6 @@ const PriceList = () => {
             </a>
         </div>
     </Layout>
-}
+)
 
 export default PriceList
