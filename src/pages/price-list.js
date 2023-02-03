@@ -14,3 +14,5 @@ const PriceList = () => {
         </div>
     </Layout>
 }
+
+export default PriceList
