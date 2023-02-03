@@ -8,7 +8,7 @@ const PriceList = () => (
         <SEO title="Mad Dame Gallery" />
         <div className="bg-white">
             <h1>Price List</h1>
-            <a href={`../Mad-Dame-2023-photoshoot-pricelist-compressed.pdf`} title="Download Price List">
+            <a href={`../public/Mad-Dame-2023-photoshoot-pricelist-compressed.pdf`} title="Download Price List">
                 Download Price List
             </a>
         </div>
