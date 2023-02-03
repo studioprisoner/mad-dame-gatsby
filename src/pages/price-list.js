@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import priceListPdf from '../static/Mad-Dame-2023-photoshoot-pricelist.pdf'
+import priceListPdf from '../static/Mad-Dame-2023-photoshoot-pricelist-compressed.pdf'
 
 
 const PriceList = () => {
